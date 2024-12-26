@@ -1,7 +1,7 @@
 # Portfolio Rebalancing - Market Stress Simulator
 
 ## Overview
-This application is designed to analyze and simulate the performance of a stock portfolio under market stress conditions. It allows users to input stock tickers, set the number of stocks for each ticker, and apply a stress factor to simulate market drops. The application generates a comprehensive report that includes portfolio summaries and visualizations.
+This application is designed to analyze and simulate the performance of a stock portfolio under market stress conditions. It allows users to input stock tickers, set the number of stocks for each ticker, and apply a stress factor to simulate market drops. The application generates a comprehensive report that includes portfolio summaries and visualizations. Only usable for stocks listed on **National Stock Exchange(NSE), India**. 
 
 ## Features
 - **Portfolio Input**: Users can enter stock tickers and specify the number of stocks for each ticker.
