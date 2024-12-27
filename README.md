@@ -20,7 +20,13 @@ This application is designed to analyze and simulate the performance of a stock 
 - **NSEPython**: For fetching historical stock data (simulated in this code).
 
 ## Installation
-To run this application, ensure you have Python installed along with the required libraries. You can install the necessary packages using pip:
+To run this application, ensure you have Python installed along with the required libraries. You can install the necessary packages using pip in the requirements.txt file (the file needs to be in the same directory as the source code):
+
+```bash
+!pip install -r requirements.txt
+```
+
+Or you can just directly run the following command in the Terminal/Command Prompt:
 
 ```bash
 pip install streamlit pandas numpy seaborn matplotlib plotly reportlab nsepython
@@ -88,5 +94,5 @@ rebalance_portfolio(prices, target_weights, initial_weights, trade_threshold)
 display_portfolio_summary(portfolio_data, title)
 ```
 
-
+###Note: This project is deployed publicly as a demo tester here: http://portfolio-rebalancing.streamlit.app/ . Only for educational purposes, not tested for commercial use. 
    
