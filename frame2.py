@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import seaborn as sns
 import matplotlib.pyplot as plt
 from nsepython import *
 import datetime
@@ -10,8 +9,6 @@ from reportlab.pdfgen import canvas
 from io import BytesIO
 from reportlab.lib.utils import ImageReader
 import plotly.express as px
-
-sns.set_theme(style="darkgrid")
 
 def generate_pdf_report(portfolio_data, start_date, end_date):
     buffer = BytesIO()
